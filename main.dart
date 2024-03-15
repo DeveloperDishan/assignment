@@ -1,3 +1,11 @@
+import 'allclass.dart';
+
 void main() {
-  print('hello world');
+  Media media = Media();
+
+  media.play();
+
+  Song song = Song("Dishan");
+
+  song.play();
 }
